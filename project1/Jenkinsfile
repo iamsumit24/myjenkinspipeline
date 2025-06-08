@@ -17,6 +17,10 @@ stages {
          stage ('Test'){
                    steps{
                         echo "test my final webapp"
+         stage ('deploy to prod '){
+                   steps{
+                        echo " my final webapp deploy to prod"
+
          }
        }
     }
